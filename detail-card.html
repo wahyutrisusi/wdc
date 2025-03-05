@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Exchange</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center p-4 sticky top-0 c-fbffe4">
+        <a href="#" class="text-2xl font-bold">Fashion</a>
+        <div class="relative">
+            <input type="text" placeholder="Search"
+                class="px-2 py-1 pl-10 border rounded-full bg-login w-[400px] placeholder-white">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+        </div>
+        <button class="px-4 py-1 bg-login text-white rounded font-semibold">Login</button>
+    </nav>
+    <nav class="flex justify-center items-center pb-4 shadow-md sticky top-16 c-fbffe4">
+        <div>
+            <a href="#" class="mx-2">Women</a>
+            <a href="#" class="mx-2">Men</a>
+            <a href="#" class="mx-2">Kid</a>
+            <a href="#" class="mx-2 text-green-600">Discount</a>
+        </div>
+    </nav>
+
+    <!-- Detail Card -->
+    <div class="grid grid-cols-2">
+        <div class="p-8 bg-a3d1c6 rounded-r-3xl">
+            <img src="https://down-id.img.susercontent.com/file/bb50fa65e49a3534328aaffeef351adf" alt="Shirt" class="w-[350px] h-[350px] mx-auto rounded">
+            <div class="flex pt-6 justify-center">
+                <img src="https://down-id.img.susercontent.com/file/bb50fa65e49a3534328aaffeef351adf" alt="shirt" class="w-[60px] h-[60px] rounded mx-2">
+                <img src="https://down-id.img.susercontent.com/file/bb50fa65e49a3534328aaffeef351adf" alt="shirt" class="w-[60px] h-[60px] rounded mx-2">
+            </div>
+        </div>
+        <div class="p-8 mt-6 ml-10">
+            <h1 class="text-2xl font-semibold">Kaos Hitam Polos</h1>
+            <p class="pt-2">L - Baik</p>
+            <p class="pt-4 text-xl font-bold italic">Rp 100.000</p>
+            <div class="grid grid-cols-5 gap-2 pt-8 mt-4 mx-8">
+                <div class="col-span-4">
+                    <div class="grid grid-cols-2 gap-2">
+                        <div class="border-2 border-button-3d8d7a rounded-lg flex justify-center items-center p-1">
+                            <p class="text-center font-3d8d7a font-bold">Tukar</p>
+                        </div>                        
+                        <div class="border-2 border-button-3d8d7a rounded-lg flex justify-center items-center">
+                            <p class="text-center font-3d8d7a font-bold">Sewa</p>
+                        </div>                        
+                    </div>
+                    <div class="col-span-4 mt-2 bg-3d8d7a rounded-lg flex justify-center items-center p-1">
+                        <p class="text-center text-white font-bold">Beli Sekarang</p>
+                    </div>
+                </div>
+                <div class="col-span-1">
+                    <button class="h-full border-2 border-button-3d8d7a px-2 rounded-lg">
+                        <i class="fas fa-shopping-cart text-button-3d8d7a text-3xl"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="mt-10">
+                <h1 class="text-xl">#collection #kaospolos #trend
+                #lingkungan</h1>
+            </div>
+            <div class="mt-10">
+                <div class="flex">
+                    <div class="mt-1 w-4 h-4 rounded-full bg-black"></div>     
+                    <p class="pl-2">BLACK</p>           
+                </div>
+            </div>
+            <div class="mt-10">
+                <div class="flex">
+                    <i class="fas fa-user text-button-3d8d7a text-xl"></i>
+                    <p class="pl-4">Wahyu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Commennt -->
+    <div class="mt-10 p-8">
+        <h2 class="text-2xl font-bold font-3d8d7a pl-8">Top Comments</h2>
+        <div class="grid grid-cols-2 gap-4 mt-4">
+            <div class="bg-environment rounded-lg p-4">
+                <div class="flex">
+                    <i class="fas fa-user text-white text-3xl py-2 px-4"></i>
+                    <div class="pl-1">
+                        <p class="font-bold text-lg">Avuriru</p>
+                        <div class="flex">
+                            <img src="assets/img/rating.png" alt="" class="w-18 h-4">
+                            <p class="pl-2 text-xs opacity-80">seminggu yang lalu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4">
+                    <p class="text-lg">Wow bagus banget</p>
+                </div>
+            </div>
+            <div class="bg-environment rounded-lg p-4">
+                <div class="flex">
+                    <i class="fas fa-user text-white text-3xl py-2 px-4"></i>
+                    <div class="pl-1">
+                        <p class="font-bold text-lg">Pandu</p>
+                        <div class="flex">
+                            <img src="assets/img/rating.png" alt="" class="w-18 h-4">
+                            <p class="pl-2 text-xs opacity-80">2 hari lalu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4">
+                    <p class="text-lg">Iya jadi pingin kamu juga</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- More -->
+    <div class="mt-4 p-8">
+        <h2 class="text-2xl font-bold font-3d8d7a pl-8">More</h2>
+        <div class="grid grid-cols-4 gap-4 mx-8">
+            <div class="p-6 rounded">
+                <img src="https://down-id.img.susercontent.com/file/bb50fa65e49a3534328aaffeef351adf" alt="Shirt">
+                <p class="font-bold">Rp 100.000</p>
+                <p class="text-xs">Kaos Hitam Polos</p>
+                <p class="text-xs">L</p>
+            </div>
+            <div class="p-6 rounded">
+                <img src="https://down-id.img.susercontent.com/file/bb50fa65e49a3534328aaffeef351adf" alt="Shirt">
+                <p class="font-bold">Rp 100.000</p>
+                <p class="text-xs">Kaos Hitam Polos</p>
+                <p class="text-xs">L</p>
+            </div>
+            <div class="p-6 rounded">
+                <img src="https://down-id.img.susercontent.com/file/bb50fa65e49a3534328aaffeef351adf" alt="Shirt">
+                <p class="font-bold">Rp 100.000</p>
+                <p class="text-xs">Kaos Hitam Polos</p>
+                <p class="text-xs">L</p>
+            </div>
+            <div class="p-6 rounded">
+                <img src="https://down-id.img.susercontent.com/file/bb50fa65e49a3534328aaffeef351adf" alt="Shirt">
+                <p class="font-bold">Rp 100.000</p>
+                <p class="text-xs">Kaos Hitam Polos</p>
+                <p class="text-xs">L</p>
+            </div>
+        </div>
+    </div>
+    <!-- Recommend -->
+    <div class="mt-4 p-8">
+        <h2 class="text-2xl font-bold font-3d8d7a pl-8">Recocmended for you</h2>
+        <div class="grid grid-cols-4 gap-4 mx-8">
+            <div class="p-6 rounded">
+                <img src="https://down-id.img.susercontent.com/file/bb50fa65e49a3534328aaffeef351adf" alt="Shirt">
+                <p class="font-bold">Rp 100.000</p>
+                <p class="text-xs">Kaos Hitam Polos</p>
+                <p class="text-xs">L</p>
+            </div>
+            <div class="p-6 rounded">
+                <img src="https://down-id.img.susercontent.com/file/bb50fa65e49a3534328aaffeef351adf" alt="Shirt">
+                <p class="font-bold">Rp 100.000</p>
+                <p class="text-xs">Kaos Hitam Polos</p>
+                <p class="text-xs">L</p>
+            </div>
+            <div class="p-6 rounded">
+                <img src="https://down-id.img.susercontent.com/file/bb50fa65e49a3534328aaffeef351adf" alt="Shirt">
+                <p class="font-bold">Rp 100.000</p>
+                <p class="text-xs">Kaos Hitam Polos</p>
+                <p class="text-xs">L</p>
+            </div>
+            <div class="p-6 rounded">
+                <img src="https://down-id.img.susercontent.com/file/bb50fa65e49a3534328aaffeef351adf" alt="Shirt">
+                <p class="font-bold">Rp 100.000</p>
+                <p class="text-xs">Kaos Hitam Polos</p>
+                <p class="text-xs">L</p>
+            </div>
+        </div>
+    </div>
+</body>

@@ -4,7 +4,16 @@ body {
 .bg-login {
     background-color: #A3D1C6;
 }
+.bg-a3d1c6{
+    background-color: #A3D1C6;
+}
+.bg-3d8d7a {
+    background-color: #3D8D7A;
+}
 .border-showmore {
+    border-color: #3D8D7A;
+}
+.border-button-3d8d7a {
     border-color: #3D8D7A;
 }
 .c-fbffe4{
@@ -15,4 +24,7 @@ body {
 }
 .bg-environment{
     background-image: url('assets/img/bg-environment.png');
+}
+.text-button-3d8d7a{
+    color: #3D8D7A;
 }
